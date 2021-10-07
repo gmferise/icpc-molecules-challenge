@@ -31,8 +31,8 @@ In this problem, we have some constraints on the arrangements being sought.
 1. The fore and aft tails of each chain extending beyond the super molecule's central interlocked rectangle must have a minimum length of one chain element. That is, none of the four original chains can have either its first or its last element as part of the interlocking-rectangle boundary.
  
 
-Input
+## Input
 The input consists of a series of data sets. Each data set consists of four molecular chains of 12 fixed elements each. These 12 elements are given as contiguous capital letters. The molecule designators within the chains will be restricted to the sixteen letters "A" through"P". The first letter of a chain will appear as the first character on an input line. The first molecule designator within the first chain of a data set will be the letter "Q" to indicate the end of data.
 
-Output
+## Output
 A line with a single integer is to be emitted for each input data set encountered. This integer is the maximum area enclosed by any legitimate arrangement of the four chains. Use the output value 0 to indicate that no legitimate super molecule could be formed for a given data set. The first digit of an output value should be the first character on a line.
